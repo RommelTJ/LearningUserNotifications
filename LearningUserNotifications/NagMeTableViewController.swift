@@ -10,6 +10,14 @@ import UIKit
 
 class NagMeTableViewController: UITableViewController {
 
+    typealias Task = String
+    
+    let tasks: [Task] = [
+        "Wash Up",
+        "Walk Dog",
+        "Exercise"
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
