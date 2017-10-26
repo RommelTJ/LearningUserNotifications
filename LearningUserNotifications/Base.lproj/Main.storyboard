@@ -40,7 +40,7 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <state key="normal" title="🔊"/>
                                             <connections>
-                                                <action selector="remindButtonTapped:" destination="nu4-Jt-VHk" eventType="touchUpInside" id="Bbk-mc-VfH"/>
+                                                <action selector="remindButtonTapped:" destination="nu4-Jt-VHk" eventType="touchUpInside" id="doS-v2-sxc"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -55,8 +55,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="nameLabel" destination="cCf-7X-KRf" id="8Z1-B9-Evh"/>
-                                    <outlet property="toggleReminderButton" destination="Z0p-6R-tWi" id="tde-A7-6z7"/>
+                                    <outlet property="nameLabel" destination="cCf-7X-KRf" id="8iE-vS-lRy"/>
+                                    <outlet property="toggleReminderButton" destination="Z0p-6R-tWi" id="Dfc-AF-sQa"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
