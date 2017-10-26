@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B0E20B111FA2344E00C905AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E20B101FA2344E00C905AB /* AppDelegate.swift */; };
-		B0E20B131FA2344E00C905AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E20B121FA2344E00C905AB /* ViewController.swift */; };
 		B0E20B161FA2344E00C905AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E20B141FA2344E00C905AB /* Main.storyboard */; };
 		B0E20B181FA2344E00C905AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E20B171FA2344E00C905AB /* Assets.xcassets */; };
 		B0E20B1B1FA2344E00C905AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E20B191FA2344E00C905AB /* LaunchScreen.storyboard */; };
+		B0E20B231FA235CE00C905AB /* NagMeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E20B221FA235CE00C905AB /* NagMeTableViewController.swift */; };
+		B0E20B251FA2367600C905AB /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E20B241FA2367600C905AB /* TaskCell.swift */; };
+		B0E20B271FA2388600C905AB /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E20B261FA2388600C905AB /* Identifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B0E20B0D1FA2344E00C905AB /* LearningUserNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningUserNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E20B101FA2344E00C905AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0E20B121FA2344E00C905AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0E20B151FA2344E00C905AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0E20B171FA2344E00C905AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0E20B1A1FA2344E00C905AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0E20B1C1FA2344E00C905AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E20B221FA235CE00C905AB /* NagMeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NagMeTableViewController.swift; sourceTree = "<group>"; };
+		B0E20B241FA2367600C905AB /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		B0E20B261FA2388600C905AB /* Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				B0E20B101FA2344E00C905AB /* AppDelegate.swift */,
-				B0E20B121FA2344E00C905AB /* ViewController.swift */,
+				B0E20B221FA235CE00C905AB /* NagMeTableViewController.swift */,
+				B0E20B261FA2388600C905AB /* Identifiers.swift */,
+				B0E20B241FA2367600C905AB /* TaskCell.swift */,
 				B0E20B141FA2344E00C905AB /* Main.storyboard */,
 				B0E20B171FA2344E00C905AB /* Assets.xcassets */,
 				B0E20B191FA2344E00C905AB /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E20B131FA2344E00C905AB /* ViewController.swift in Sources */,
+				B0E20B231FA235CE00C905AB /* NagMeTableViewController.swift in Sources */,
+				B0E20B251FA2367600C905AB /* TaskCell.swift in Sources */,
+				B0E20B271FA2388600C905AB /* Identifiers.swift in Sources */,
 				B0E20B111FA2344E00C905AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
