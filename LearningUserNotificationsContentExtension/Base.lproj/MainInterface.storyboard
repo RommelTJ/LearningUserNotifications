@@ -46,7 +46,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="160"/>
                     <connections>
-                        <outlet property="label" destination="GcN-lo-r42" id="lpW-cU-7IG"/>
+                        <outlet property="label" destination="GcN-lo-r42" id="hso-AM-KgR"/>
                         <outlet property="speakerLabel" destination="MhI-Dh-lhx" id="72c-x2-Hlj"/>
                     </connections>
                 </viewController>
