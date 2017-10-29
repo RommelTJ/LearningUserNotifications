@@ -12,6 +12,7 @@
 		B038D6271FA5814600C28889 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B038D6261FA5814600C28889 /* NotificationViewController.swift */; };
 		B038D62A1FA5814600C28889 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B038D6281FA5814600C28889 /* MainInterface.storyboard */; };
 		B038D62E1FA5814600C28889 /* LearningUserNotificationsContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B038D61F1FA5814500C28889 /* LearningUserNotificationsContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B038D6331FA5862900C28889 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E20B261FA2388600C905AB /* Identifiers.swift */; };
 		B0E20B111FA2344E00C905AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E20B101FA2344E00C905AB /* AppDelegate.swift */; };
 		B0E20B161FA2344E00C905AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E20B141FA2344E00C905AB /* Main.storyboard */; };
 		B0E20B181FA2344E00C905AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E20B171FA2344E00C905AB /* Assets.xcassets */; };
@@ -240,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B038D6331FA5862900C28889 /* Identifiers.swift in Sources */,
 				B038D6271FA5814600C28889 /* NotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
